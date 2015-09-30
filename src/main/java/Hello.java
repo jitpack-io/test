@@ -1,5 +1,5 @@
 
 public class Hello {
-  public String greeting;
+  public String greeting = "Hello world!";
 }
 
