@@ -1,9 +1,13 @@
 
 public class Hello {
-  private static String greeting = "Hello world!";
+  private String greeting = "Hello world!";
   
   public static void main(String[] args) {
-    System.out.println(greeting);
+   new Hello().greet();
+  }
+  
+  public void greet() {
+     System.out.println(greeting);
   }
 }
 
