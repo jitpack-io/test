@@ -1,3 +1,4 @@
+package hello;
 
 public class Hello {
   private String greeting = "Hello world!";
