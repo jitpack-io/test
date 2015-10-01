@@ -5,11 +5,11 @@ public class Hello {
   private static String GREETING = "Hello there";
   
   public static void main(String[] args) {
-   new Hello().greet(args[0]);
+   new Hello().greet(args[0], 5);
   }
   
-  public void greet(String name) {
-     for(int i = 0; i < 5; i++)
+  public void greet(String name, int times) {
+     for(int i = 0; i < times; i++)
       System.out.println(GREETING + " " + name);
   }
   
