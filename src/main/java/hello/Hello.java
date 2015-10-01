@@ -9,7 +9,8 @@ public class Hello {
   }
   
   public void greet(String name) {
-     System.out.println(GREETING + " " + name);
+     for(int i = 0; i < 5; i++)
+      System.out.println(GREETING + " " + name);
   }
   
   @Override
