@@ -2,7 +2,7 @@ package hello;
 
 public class Hello {
   
-  private static String GREETING = "Hello";
+  private static String GREETING = "Hello there";
   
   public static void main(String[] args) {
    new Hello().greet(args[0]);
@@ -12,6 +12,7 @@ public class Hello {
      System.out.println(GREETING + " " + name);
   }
   
+  @Override
   public String toString() {
     return GREETING;
   }
