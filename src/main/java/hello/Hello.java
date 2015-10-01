@@ -5,7 +5,7 @@ public class Hello {
   private static String GREETING = "Hello there";
   
   public static void main(String[] args) {
-   new Hello().greet(args[0], Integer.parseInt(args[1]);
+   new Hello().greet(args[0], Integer.parseInt(args[1]));
   }
   
   public void greet(String name, int times) {
